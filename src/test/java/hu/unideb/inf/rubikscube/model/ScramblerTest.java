@@ -74,13 +74,6 @@ public class ScramblerTest {
 	}
 
 	/**
-	 * Test of getScramble method, of class Scrambler.
-	 */
-	@Test
-	public void testGetScramble() {
-	}
-
-	/**
 	 * Test of toString method, of class Scrambler.
 	 */
 	@Test

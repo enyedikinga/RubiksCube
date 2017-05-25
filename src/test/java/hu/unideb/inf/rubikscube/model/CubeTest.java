@@ -196,12 +196,4 @@ public class CubeTest {
 		}
 	}
 
-	/**
-	 * Test of toString method, of class Cube.
-	 */
-	@Test
-	public void testToString() {
-
-	}
-
 }

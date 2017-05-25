@@ -15,7 +15,6 @@
  */
 package hu.unideb.inf.rubikscube.model;
 
-import com.sun.prism.paint.Color;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -55,7 +54,6 @@ public class SideTest {
 	 */
 	@Test
 	public void testRotateMainSideClockwise() {
-		System.out.println("rotateMainSideClockwise");
 		Side side = new Side(3, StickerColor.WHITE, 'U');
 		side.setColorAt(0, 0, StickerColor.YELLOW);
 		side.rotateMainSideClockwise();
@@ -76,7 +74,6 @@ public class SideTest {
 	 */
 	@Test
 	public void testRotateMainSideCounterClockwise() {
-		System.out.println("rotateMainSideCounterClockwise");
 		Side side = new Side(3, StickerColor.WHITE, 'U');
 		side.setColorAt(0, 0, StickerColor.YELLOW);
 		side.rotateMainSideCounterClockwise();
@@ -97,7 +94,6 @@ public class SideTest {
 	 */
 	@Test
 	public void testGetPosition() {
-		System.out.println("getPosition");
 		Side side = new Side(3, StickerColor.BLUE, 'B');
 		assertEquals(side.getPosition(), 'B');
 		side = new Side(3, StickerColor.BLUE, 'F');
