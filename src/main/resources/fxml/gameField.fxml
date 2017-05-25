@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="gameAnchorPane" onDragDetected="#mouseDragDetectedOnGameField" onMouseDragReleased="#mouseDragReleasedOnGameField" onMouseDragged="#mouseDraggedOnGameField" onMousePressed="#mousePressedOnGameField" onScroll="#handleScrollEvent" prefHeight="640.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group fx:id="gameField" depthTest="ENABLE" onScroll="#handleScrollEvent">
+         <children>
+            <AmbientLight fx:id="ambientLight" color="CHARTREUSE" lightOn="true" />
+         </children>
+      </Group>
+   </children>
+</AnchorPane>

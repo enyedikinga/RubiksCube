@@ -1,0 +1,17 @@
+.button {
+    -fx-font-weight: bold;
+}
+
+.combo-box{
+	-fx-font-weight: bold;
+}
+
+.text-input{
+	-fx-background-color: #e4e4e4;
+	-fx-font-weight: bold;
+}
+
+.text-input .content{
+	-fx-background-color: #e4e4e4;
+	-fx-font-weight: bold;
+}
