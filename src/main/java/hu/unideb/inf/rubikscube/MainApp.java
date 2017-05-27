@@ -49,10 +49,7 @@ public class MainApp extends Application {
 
 		gameFieldController = new GameFieldController();
 
-		String resourcePath = System.getProperty("file.separator")
-				+ "fxml"
-				+ System.getProperty("file.separator")
-				+ "menuField.fxml";
+		String resourcePath = "/fxml/menuField.fxml";
 		URL location = getClass().getResource(resourcePath);
 		FXMLLoader fxmlLoader = new FXMLLoader(location);
 		fxmlLoader.setLocation(location);
@@ -66,10 +63,7 @@ public class MainApp extends Application {
 				BackgroundRepeat.REPEAT, BackgroundPosition.DEFAULT, BackgroundSize.DEFAULT));
 		menuFieldPane.setBackground(background);
 
-		resourcePath = System.getProperty("file.separator")
-				+ "fxml"
-				+ System.getProperty("file.separator")
-				+ "gameField.fxml";
+		resourcePath = "/fxml/gameField.fxml";
 		location = getClass().getResource(resourcePath);
 		fxmlLoader = new FXMLLoader(location);
 		fxmlLoader.setLocation(location);
